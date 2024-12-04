@@ -1,0 +1,38 @@
+/* :host {
+     --lighten-background-color:;
+    --darken-background-color:;
+    --brand-background-color:;
+    --lighten-text-color:;
+     --lighten-darken-text-color:;
+    --darken-text-color:;
+    --brand-text-color:; 
+    --header-height:60px;
+    --sidebar-width:250px;
+    --default-padding:8px;
+    --font-size:1rem;
+    line-height: 1.6;
+} */
+
+:host {
+    --lighten-background-color:;
+    --darken-background-color:; 
+    --brand-background-color:;
+    --lighten-text-color:;
+    --lighten-darken-text-color: #bebebe;
+    --darken-text-color:;
+    --brand-text-color:;
+    --header-height:60px;
+    --sidebar-width:270px;
+    --default-padding:8px;
+    --font-size:1rem;
+    --light-text-color:;
+    --theme-text-color:;
+}
+
+aw-wizard-navigation-bar {
+	display: none !important;
+}
+body > .container {
+	padding: 60px 15px 0;
+}
+
